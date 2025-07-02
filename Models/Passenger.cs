@@ -1,8 +1,9 @@
+using RideSharingApp.DTO;
 using RideSharingApp.FareTypes;
 using RideSharingApp.Notify;
 using System;
 
-namespace RideSharingApp{
+namespace RideSharingApp.Models{
     class Passenger : User, INotifiable{
 
         public IFareType fareType ;

@@ -1,6 +1,7 @@
+using RideSharingApp.DTO;
 using RideSharingApp.Notify;
 
-namespace RideSharingApp{
+namespace RideSharingApp.Models{
     class Driver : User, INotifiable{
 
         public IVehicle vehicle ;

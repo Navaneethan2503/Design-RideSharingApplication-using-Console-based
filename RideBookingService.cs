@@ -1,3 +1,5 @@
+using RideSharingApp.DTO;
+using RideSharingApp.Models;
 using RideSharingApp.Notify;
 using System;
 

@@ -1,4 +1,6 @@
-﻿using RideSharingApp.FareTypes;
+﻿using RideSharingApp.DTO;
+using RideSharingApp.FareTypes;
+using RideSharingApp.Models;
 using System;
 
 namespace RideSharingApp{

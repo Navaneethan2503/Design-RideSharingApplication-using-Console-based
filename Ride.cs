@@ -1,4 +1,5 @@
 ﻿using RideSharingApp.FareTypes;
+using RideSharingApp.Models;
 using RideSharingApp.Status;
 using System;
 using System.Collections.Generic;

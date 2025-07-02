@@ -1,6 +1,6 @@
 using System;
 
-namespace RideSharingApp{
+namespace RideSharingApp.DTO{
     class Location{
         public int _lat ;
         public int _long;

@@ -1,4 +1,6 @@
-﻿namespace RideSharingApp
+﻿using RideSharingApp.DTO;
+
+namespace RideSharingApp.Models
 {
     internal abstract class User
     {
