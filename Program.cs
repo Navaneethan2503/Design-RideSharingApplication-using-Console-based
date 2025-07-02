@@ -1,4 +1,5 @@
-﻿using RideSharingApp.DTO;
+﻿using RideSharingApp.AbstractClassDemo;
+using RideSharingApp.DTO;
 using RideSharingApp.FareTypes;
 using RideSharingApp.Models;
 using System;
@@ -19,6 +20,15 @@ namespace RideSharingApp{
 
             Passenger p3 = new Passenger("vijay", new Location(1, 2), new SharedFareType());
             app.RequestRide(p3,30);
+
+
+            //Abstract Class Demonstration
+            MathsBooks book = new MathsBooks(1,"Maths", "somethisn", "nava");
+            Book book2 = new MathsBooks(2, "Maths 2", "somethisn 2", "nava 2");
+
+            Book b1 = book.GetBook();
+            Book b2 = book.GetBookByBook();
+
         }
     }
 }
